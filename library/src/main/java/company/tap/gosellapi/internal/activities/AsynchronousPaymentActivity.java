@@ -166,7 +166,6 @@ public class AsynchronousPaymentActivity extends BaseActivity implements View.On
         cancel_payment_ll.removeView(cancel_payment_text);
         toolbar.setBackgroundColor(getResources().getColor(R.color.french_gray_new));
 
-
     }
     /**
      * Getting the  data from the Charge response.

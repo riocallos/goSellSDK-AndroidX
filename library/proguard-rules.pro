@@ -54,4 +54,12 @@
 -keep class org.** { *; }
 -keepclassmembers enum * { *; }
 
+-keep class company.tap.tapcardvalidator_android.** { *; }
+
+-keep class company.tap.gosellapi.internal.** { *; }
+-keep class company.tap.gosellapi.internal.api.** { *; }
+-keep class company.tap.gosellapi.internal.api.responses.** { *; }
+
+-keep class jp.wasabeef.blurry.** { *; }
+
 

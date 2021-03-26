@@ -25,7 +25,9 @@
      android:layout_height="60dp"
      android:orientation="vertical"
      android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@+id/status_icon"
         android:layout_toEndOf="@+id/status_icon"
+        android:layout_marginLeft="@dimen/margin_basic_16dp"
         android:layout_marginStart="@dimen/margin_basic_16dp"
      >
 

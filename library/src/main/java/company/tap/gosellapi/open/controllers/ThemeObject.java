@@ -32,6 +32,8 @@ public class ThemeObject {
         private int                     headerTextColor;
         private int                     headerTextSize;
         private int                     headerBackgroundColor;
+        private Typeface                headerCancelTextFont;
+        private int                     headerCancelTextColor;
 
 
         /**
@@ -175,6 +177,24 @@ public class ThemeObject {
          */
         public ThemeObject setHeaderBackgroundColor(int headerBackgroundColor) {
                 this.headerBackgroundColor = headerBackgroundColor;
+                return this;
+        }
+
+        /**
+         * Header Font Typeface
+         * @param headerCancelTextFont
+         */
+        public ThemeObject setHeaderCancelTextFont(Typeface headerCancelTextFont) {
+                this.headerCancelTextFont = headerCancelTextFont;
+                return this;
+        }
+
+        /**
+         * Header background color
+         * @param headerCancelTextColor
+         */
+        public ThemeObject setHeaderCancelTextColor(int headerCancelTextColor) {
+                this.headerCancelTextColor = headerCancelTextColor;
                 return this;
         }
 
@@ -419,6 +439,18 @@ public class ThemeObject {
         public int getHeaderBackgroundColor() {
                 return this.headerBackgroundColor;
         }
+
+        /**
+         * @return  header font typeface
+         */
+        public Typeface getHeaderCancelTextFont() {
+                return this.headerCancelTextFont;
+        }
+
+        /**
+         * @return cancel text color
+         */
+        public int getHeaderCancelTextColor() { return this.headerCancelTextColor; }
 
         /**
          * @return card input font type face

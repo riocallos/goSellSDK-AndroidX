@@ -22,12 +22,12 @@ android {
         versionCode 2
         versionName getVersionName()
         consumerProguardFiles 'proguard-rules.pro'
-
     }
     buildTypes {
         release {
             minifyEnabled false
-           
+            shrinkResources false
+            proguardFiles 'proguard-rules.pro'
         }
         customDebugType {
             debuggable true
@@ -39,6 +39,7 @@ android {
     }
 
     buildToolsVersion '28.0.3'
+
 }
 
 dependencies {

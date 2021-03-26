@@ -60,13 +60,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/cancel"
-
-
                 android:layout_marginBottom="@dimen/margin_basic_16dp"
                 android:layout_marginTop="@dimen/margin_basic_16dp"
-
-
-
                 />
         </LinearLayout>
 
